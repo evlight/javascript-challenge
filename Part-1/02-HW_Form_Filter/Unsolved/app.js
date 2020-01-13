@@ -39,19 +39,19 @@ list.append("li").text(standard);
 
 });
 
-var tbody = d3.select("tbody");
+// var tbody = d3.select("tbody");
 
-// Use d3 to create a bootstrap striped table
-// // http://getbootstrap.com/docs/3.3/css/#tables-striped
-table.attr("class", "table-striped");
+// // Use d3 to create a bootstrap striped table
+// // // http://getbootstrap.com/docs/3.3/css/#tables-striped
+// table.attr("class", "table-striped");
 
-data.forEach((bloodTaable) => {
-  var row = tbody.append("tr");
-  Object.entries(bloodTable).forEach(([key, value]) => {
-    var cell = row.append("td");
-    cell.text(value);
-  });
-});
+// data.forEach((bloodTaable) => {
+//   var row = tbody.append("tr");
+//   Object.entries(bloodTable).forEach(([key, value]) => {
+//     var cell = row.append("td");
+//     cell.text(value);
+//   });
+// });
 
 
 
